@@ -72,7 +72,6 @@ public class CardGame {
             tmpBet = cardPlayers[i].bet(betMoney);
             
             if (tmpBet == -1) {
-                    cardPlayers[i].addMoney(tmpBet);
                     tmpBet = 0;
                     i--;
                     System.out.println("not enough money to bet");
